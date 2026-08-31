@@ -80,7 +80,7 @@ pipeline {
 
         stage('Docker Hub Push') {
             steps {
-                withDockerRegistry(credentialsId: 'docker') {
+                withDockerRegistry(credentialsId: 'docker', url: '') {
                     sh "docker push ${IMAGE_NAME}:${IMAGE_TAG}"
                 }
             }
