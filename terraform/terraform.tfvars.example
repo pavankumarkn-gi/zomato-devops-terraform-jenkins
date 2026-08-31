@@ -1,0 +1,4 @@
+﻿aws_region    = "ap-south-1"
+instance_type = "t2.large"
+key_name      = "zomato-devops-key"
+volume_size   = 30
