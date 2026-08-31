@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zomato - Discover the Best Food</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">zomato</div>
+    <div class="nav-links">
+      <a href="#">Add restaurant</a>
+      <a href="#">Log in</a>
+      <a href="#">Sign up</a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="brand-title">zomato</h1>
+      <p class="brand-subtitle">Discover the best food & drinks in your city</p>
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search for restaurant, cuisine or a dish...">
+      </div>
+    </div>
+  </section>
+
+  <main class="container">
+    <h2>Popular Restaurants</h2>
+    <div class="restaurant-grid" id="restaurantGrid"></div>
+
+    <h2>Your Cart</h2>
+    <div class="cart-box" id="cartBox">
+      <p id="emptyCartMsg">Your cart is empty.</p>
+      <ul id="cartItems"></ul>
+      <div class="cart-total" id="cartTotal"></div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Zomato DevOps Project. Built with Node.js & Docker.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

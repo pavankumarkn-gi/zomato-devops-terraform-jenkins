@@ -1,0 +1,12 @@
+﻿{
+  "name": "zomato-web-app",
+  "version": "1.0.0",
+  "description": "Zomato styled food ordering web application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

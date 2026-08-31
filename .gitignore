@@ -1,0 +1,17 @@
+﻿# Node artifacts
+node_modules/
+npm-debug.log*
+
+# Terraform local files & secrets
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!terraform.tfvars.example
+.terraform.lock.hcl
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
